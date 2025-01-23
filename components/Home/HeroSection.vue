@@ -97,7 +97,7 @@ onMounted(async () => {
                 <span class="text-blue-500">nuxtui</span>-
                 <span>tailwind</span>-
                 <span class="text-blue-500">software developer</span>-
-                <span>nuxtjs</span>
+                <span>nuxtjs</span>-
                 <span class="text-blue-500">developer</span>-
                 <span>designer</span>-
                 <span class="text-blue-500">front end</span>-

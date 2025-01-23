@@ -31,6 +31,11 @@ const projects = ref([
         image: '/projects/thaikk.png',
         title: 'Thaikk'
     },
+    {
+        link: 'https://staging.tcrss.com/',
+        image: '/projects/tcrss.png',
+        title: 'TCRSS'
+    },
 ])
 
 onMounted(() => {
