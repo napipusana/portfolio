@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { gsap } from 'gsap';
 
+useHead({
+    title: 'Projects'
+})
+
 const projects = ref([
     {
         link: 'https://rootsplatform.com/',

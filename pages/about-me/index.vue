@@ -1,5 +1,7 @@
 <script setup lang="ts">
-
+useHead({
+    title: 'About me'
+})
 </script>
 <template>
    <UContainer class="py-12">

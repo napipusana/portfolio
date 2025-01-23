@@ -1,5 +1,7 @@
 <script setup lang="ts">
-
+useHead({
+    title: 'Resume'
+})
 </script>
 <template>
    <UContainer class="py-12">
