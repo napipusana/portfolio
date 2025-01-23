@@ -87,7 +87,17 @@ onMounted(async () => {
         </UContainer>
         <div class="relative py-12 overflow-hidden">
             <div class="w-full top-0 bg-blue-900 h-16 lg:h-24"></div>
-            <div class="flex absolute top-11 lg:top-12 left-0 whitespace-nowrap gap-2 lg:gap-4 bg-black text-white uppercase -rotate-2 text-sm lg:text-2xl py-4 lg:py-6 font-bold tracking-wide">
+            <div class="flex absolute top-6 lg:top-8 -left-1 whitespace-nowrap gap-2 lg:gap-4 bg-black text-white uppercase -rotate-2 text-sm lg:text-2xl py-4 lg:py-6 font-bold tracking-wide">
+                <span class="text-blue-500">developer</span>-
+                <span>designer</span>-
+                <span class="text-blue-500">front end</span>-
+                <span>nuxtjs</span>-
+                <span class="text-blue-500">vue</span>-
+                <span>web app</span>-
+                <span class="text-blue-500">nuxtui</span>-
+                <span>tailwind</span>-
+                <span class="text-blue-500">software developer</span>-
+                <span>nuxtjs</span>
                 <span class="text-blue-500">developer</span>-
                 <span>designer</span>-
                 <span class="text-blue-500">front end</span>-
