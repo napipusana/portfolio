@@ -8,7 +8,7 @@ useHead({
         <div class="text-2xl lg:text-4xl font-bold text-center">
             Resume
         </div>
-        <div class="text-lg font-bold">
+        <div class="text-lg font-bold mt-8">
             Education
         </div>
         <div class="flex flex-col gap-8 mt-8">

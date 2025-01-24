@@ -57,12 +57,6 @@ onMounted(() => {
         <div class="text-2xl lg:text-4xl font-bold text-center">
             Projects
         </div>
-        <!-- <div class="grid grid-cols-4">
-            <a href="https://rootsplatform.com/th/welcome" target="_bank" class="flex flex-col border-b rounded shadow hover:rotate-3">
-                <img src="@/public/projects/rootsplatform.png" alt="rootsplatform">
-                <div class="text-lg font-bold p-4">Rootsplatform</div>
-            </a>
-        </div> -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
             <div v-for="project in projects" :key="project.title" class="project-item">
                 <a :href="project.link" target="_bank" class="flex flex-col border-b rounded shadow h-full transition duration-300 hover:rotate-3 hover:brightness-50">

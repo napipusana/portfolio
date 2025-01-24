@@ -13,7 +13,7 @@ const isDark = computed({
    <UContainer>
         <hr class="gradient-line">
         <div class="grid lg:flex justify-between gap-4 py-8 items-center">
-            <div class="lg:flex gap-24">
+            <div class="grid lg:flex gap-4 lg:gap-24">
                 <div class="flex flex-col gap-2">
                     <div class="font-bold">Phone</div>
                     <div class="text-sm">082-7801156</div>

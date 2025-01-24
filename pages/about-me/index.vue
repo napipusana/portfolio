@@ -8,7 +8,7 @@ useHead({
         <div class="text-2xl lg:text-4xl font-bold text-center">
             About me
         </div>
-        <div class="text-lg font-bold">
+        <div class="text-lg font-bold mt-6">
             Hobby
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-4">

@@ -6,15 +6,6 @@
         <div class="text-2xl lg:text-4xl font-black text-center">Worked With</div>
         <NuxtMarquee class="w-full h-full mt-6 lg:mt-12" speed="50" pauseOnHover autoFill>
             <div class="flex justify-between gap-6 items-center px-3">
-                <!-- <div class="">
-                    <img class="w-12 lg:w-20 rounded-lg object-cover" src="@/public/worked-with/kbtg.jpeg" alt="kbtg">
-                </div>
-                <div>
-                   <img class="w-12 lg:w-20 rounded-lg object-cover" src="@/public/worked-with/mfec.png" alt="mfec">
-                </div>
-                <div>
-                    <img class="w-12 lg:w-20 rounded-lg object-cover" src="@/public/worked-with/thanachart.jpg" alt="thanachart">
-                </div> -->
                 <img class="w-16 lg:w-20 rounded-lg object-cover" src="@/public/worked-with/kbtg.jpeg" alt="kbtg">
                 <img class="w-16 lg:w-20 rounded-lg object-cover" src="@/public/worked-with/mfec.png" alt="mfec">
                 <img class="w-16 lg:w-20 rounded-lg object-cover" src="@/public/worked-with/thanachart.jpg" alt="thanachart">
