@@ -19,18 +19,21 @@ const isOpen = ref(false)
             <div class="flex gap-8 items-center">
                 <NuxtLink 
                     to='/projects' 
+                    class="hover:underline"
                     :class="route.fullPath.includes('/projects') ? 'font-bold' : ''"
                 >
                     Projects
                 </NuxtLink>
                 <NuxtLink 
                     to='/resume' 
+                    class="hover:underline"
                     :class="route.fullPath.includes('/resume') ? 'font-bold' : ''"
                 >
                     Resume
                 </NuxtLink>
                 <NuxtLink 
                     to='/about-me' 
+                    class="hover:underline"
                     :class="route.fullPath.includes('/about-me') ? 'font-bold' : ''"
                 >
                     About me
