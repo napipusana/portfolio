@@ -29,13 +29,17 @@ const isDark = computed({
                             <img v-show="isDark" class="w-5" src="@/public/icon/facebook.png" alt="facebook"> 
                             <img v-show="!isDark" class="w-5" src="@/public/icon/facebook-black.png" alt="facebook">
                         </a>
-                        <a href="https://www.instagram.com/napipusana" target="_bank">
+                        <a href="#">
                             <img v-show="isDark" class="w-5" src="@/public/icon/instagram.png" alt="instagram">
                             <img v-show="!isDark" class="w-5" src="@/public/icon/instagram-black.png" alt="instagram">
                         </a>
                         <a href="https://www.tiktok.com/@pipu_nana" target="_bank">
                             <img v-show="isDark" class="w-5" src="@/public/icon/tiktok.png" alt="tiktok">
                             <img v-show="!isDark" class="w-5" src="@/public/icon/tiktok-black.png" alt="tiktok">
+                        </a>
+                        <a href="https://www.linkedin.com/in/pipusana-kumvongdee" target="_bank">
+                            <img v-show="isDark" class="w-5" src="@/public/icon/linkedin.png" alt="linkedin">
+                            <img v-show="!isDark" class="w-5" src="@/public/icon/linkedin-black.png" alt="linkedin">
                         </a>
                     </div>
                 </div>

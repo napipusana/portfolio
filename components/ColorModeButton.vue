@@ -17,6 +17,7 @@ const isDark = computed({
       :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
       color="black"
       variant="ghost"
+      aria-labelledby="toggle-theme-label"
       @click="isDark = !isDark"
     />
 

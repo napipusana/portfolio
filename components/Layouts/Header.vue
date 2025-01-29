@@ -46,6 +46,7 @@ const isOpen = ref(false)
             <UButton
                 :icon="isOpen ? 'i-heroicons-x-mark' : 'i-heroicons-bars-3'"
                 color="white"
+                :aria-label="isOpen ? 'Close menu' : 'Open menu'"
                 @click="isOpen = !isOpen"
             />
         </div>
