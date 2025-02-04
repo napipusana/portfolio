@@ -55,6 +55,7 @@ onMounted(async () => {
                     <div>Welcome to my portfolio</div>
                     <div class="uppercase font-black text-4xl lg:text-7xl text-blue-700">pipusana</div>
                     <div class="uppercase font-black text-4xl lg:text-7xl">kumvongdee</div>
+                    <img class="w-28 lg:w-36" src="@/public/home/nyancat.svg" alt="nyancat">
                 </div>
                 <div class="col-span-1 w-60 h-60 lg:w-[480px] lg:h-[480px] mx-auto lg:ml-auto">
                     <img class="rounded-full object-cover w-full h-full" src="@/public/img/profile.jpg" alt="pipusana">
