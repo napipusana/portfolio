@@ -7,4 +7,5 @@ export default defineNuxtConfig({
     colorMode: false
   },
   plugins: ['~/plugins/swiper.client.js'],
+  css: ["~/assets/css/main.css"],
 })

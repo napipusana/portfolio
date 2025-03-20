@@ -32,6 +32,11 @@ const projects = ref([
         title: 'Thaikk'
     },
     {
+        link: 'https://stagingadmin.thaikk-shop.com/',
+        image: '/projects/admin-thaikk.png',
+        title: 'Admin Thaikk'
+    },
+    {
         link: 'https://staging.tcrss.com/',
         image: '/projects/tcrss.png',
         title: 'TCRSS'
@@ -60,7 +65,7 @@ onMounted(() => {
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8">
             <div v-for="project in projects" :key="project.title" class="project-item">
                 <a :href="project.link" target="_bank" class="flex flex-col border-b rounded shadow h-full transition duration-300 hover:rotate-3 hover:brightness-50">
-                    <img class="rounded-t" :src="project.image" alt="rootsplatform">
+                    <img class="rounded-t h-[190px]" :src="project.image" alt="rootsplatform">
                     <div class="text-lg font-bold p-4">{{project.title }} </div>
                 </a>
             </div>
